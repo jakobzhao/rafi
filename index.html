@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refugee Housing Status in Seattle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Refugee Housing Status in Seattle</h1>
+    </header>
+    <div id="scroll">
+        <div class="scroll__graphic" id="map"></div>
+        <div class="scroll__text">
+            <section class="step" data-step="1">
+                <h2>Introduction</h2>
+                <p>Seattle has long been a beacon of hope for refugees from around the world. With a history of
+                    welcoming diverse populations, the city has become a new home for thousands of individuals fleeing
+                    conflict and persecution. This narrative explores the living and housing status of refugees in
+                    Seattle, focusing on key neighborhoods such as Rainier Valley and Tukwila.</p>
+            </section>
+            <section class="step" data-step="2">
+                <h2>Rainier Valley</h2>
+                <p>Rainier Valley is one of Seattle's most diverse neighborhoods, characterized by a rich cultural
+                    tapestry and a significant refugee population. The area, particularly Rainier Beach, is home to
+                    refugees from Somalia, Vietnam, Ethiopia, and many other countries. Community organizations in
+                    Columbia City and Hillman City provide essential services, helping these individuals integrate into
+                    the local society.</p>
+            </section>
+            <section class="step" data-step="3">
+                <h2>Tukwila</h2>
+                <p>Tukwila, just south of Seattle, has emerged as a critical haven for refugees. Nearly 40% of Tukwila's
+                    population is foreign-born, with a significant number seeking refuge around the Riverton Park United
+                    Methodist Church. This community hub has been pivotal in providing shelter and support to refugees
+                    from countries like Venezuela, Angola, and Congo.</p>
+            </section>
+            <section class="step" data-step="4">
+                <h2>Policy Interventions</h2>
+                <p>Seattle's government has introduced various policy measures to address the housing needs of refugees.
+                    Initiatives include affordable housing programs, partnerships with non-profits, and increased
+                    funding for community support services. These measures aim to alleviate the housing crisis and
+                    ensure refugees have access to safe and affordable housing.</p>
+            </section>
+            <section class="step" data-step="5">
+                <h2>Is it Safe?</h2>
+                <p>Studies indicate that the influx of refugees does not contribute to higher crime rates. In fact,
+                    neighborhoods with higher refugee populations have seen a decrease in crime rates, debunking common
+                    myths about refugees and crime.</p>
+            </section>
+            <section class="step" data-step="6">
+                <h2>Are There Any Refugee-Related Incidents in Seattle?</h2>
+                <p>While there have been isolated incidents involving refugees, these are not indicative of a broader
+                    trend. An interactive map will show the location and nature of refugee-related incidents to provide
+                    a clearer picture.</p>
+            </section>
+            <section class="step" data-step="7">
+                <h2>Is it Livable?</h2>
+                <p>The livability of Seattle for refugees depends on several factors, including access to affordable
+                    housing, employment opportunities, and community support. Despite the challenges, many refugees have
+                    found Seattle to be a welcoming and livable city.</p>
+            </section>
+            <section class="step" data-step="8">
+                <h2>Is it Affordable?</h2>
+                <p>The rising property values in Seattle pose a significant challenge for refugees seeking affordable
+                    housing. We'll explore this issue using data from Zillow and Redfin to show the trends in housing
+                    prices and their impact on the refugee population.</p>
+            </section>
+            <section class="step" data-step="9">
+                <h2>Is it Accommodating to Their Needs?</h2>
+                <p>Seattle offers a range of services to meet the needs of refugees, including healthcare, education,
+                    and legal assistance. However, the availability and accessibility of these services vary across
+                    different neighborhoods.</p>
+            </section>
+            <section class="step" data-step="10">
+                <h2>Is it Accommodating to Their Religious Duties?</h2>
+                <p>There are numerous places of worship for various religions in Seattle, catering to the spiritual
+                    needs of the refugee communities. This section will map out the distribution of these places of
+                    worship.</p>
+            </section>
+            <section class="step" data-step="11">
+                <h2>Is it Accommodating to Their Culture?</h2>
+                <p>Seattle is known for its cultural diversity and inclusivity. Various cultural centers and community
+                    organizations help refugees maintain their cultural practices and traditions while integrating into
+                    the broader society.</p>
+            </section>
+            <section class="step" data-step="12">
+                <h2>Conclusions</h2>
+                <p>Despite the challenges, the influx of refugees has enriched Seattle's cultural landscape. Data
+                    indicates that refugees do not contribute to higher crime rates, debunking common myths. However,
+                    the rising cost of living remains a significant hurdle. This narrative highlights the resilience of
+                    refugee communities and the importance of continued support and policy intervention.</p>
+            </section>
+        </div>
+    </div>
+    <div id="chart" class="chart"></div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/2.2.0/scrollama.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
